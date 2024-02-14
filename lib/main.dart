@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
           titleTextStyle: Theme.of(context)
               .textTheme
               .headlineMedium
-              ?.copyWith(color: Colors.white),
+              ?.copyWith(color: Colors.white), 
         ),
       ),
       home: const LoginView(),
